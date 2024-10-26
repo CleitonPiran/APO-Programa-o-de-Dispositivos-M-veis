@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".BancoDados">
 
-
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/FabDB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,13 +15,12 @@
         android:tint="#FFF"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp" />
 
     <TextView
         android:id="@+id/TextDB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"/>
-
+        android:layout_margin="16dp" />
 
 </RelativeLayout>
